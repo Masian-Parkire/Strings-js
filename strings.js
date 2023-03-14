@@ -1,9 +1,7 @@
-let sian = "beautiful";
-console.log(sian.length);
-console.log(sian[8]);
-console.log(sian[7]);
-console.log(sian[6]);
-console.log(sian[5]);
+let k = "beautiful";
+console.log(k.length);
+console.log(k[-4])
+
 const food = "I was feeling hungry today";
 const newstring = "eat";
 console.log(food[4]);
@@ -21,12 +19,12 @@ console.log(string5.includes("sitting"));
 //1. to Uppercase
 let s
 = "wonderful"
-console.log(v.toUpperCase())
+console.log(s.toUpperCase());
 //2 . to lowercase
 let v = "amazing"
 let t = "BEneath"
-console.log(v.toLocaleLowerCase())
-console.log(t.toLocaleLowerCase())
+console.log(v.toLocaleLowerCase());
+console.log(t.toLocaleLowerCase());
 //3.TITleCASE
 let d="A beautiful wedding";
     d=d.split(" ").map(([firstChar,...rest])=>firstChar.toUpperCase()+rest.join("").toLowerCase()).join(" ");
